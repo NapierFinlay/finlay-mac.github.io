@@ -1,0 +1,66 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: BigBlueTerm437 Nerd Font;
+}
+
+p {
+    color: #007C00;
+    font-family: "Source Code Pro";
+    font-weight: bold;
+    text-align: center;
+}
+
+p span {
+   background-color: #FFA800;
+   border-radius: 5px;
+   padding: 1px 1px;
+}
+
+.color-button {
+    background-color: #1897bc;
+    border-color: red;
+    border-radius: 8px;
+    height: 28px;
+    width: 100px;
+    font-size: 16px;
+    font-family: BigBlueTerm437 Nerd Font;
+    transition: 0.8s;
+}
+
+.color-button:hover {
+    background-color: #65b27b;
+    transition: 0.8s;
+    border-color: #ea7609
+}
+
+.even-line {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: BigBlueTerm437 Nerd Font;
+}
+
+
+a:link {
+    color: #0f8e94;
+    background-color: #bebebe;
+    font-family: "Source Code Pro";
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #707070;
+    transition: 0.8s;
+    color: pink;
+}

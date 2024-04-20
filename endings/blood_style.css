@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/blood.png");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: BigBlueTerm437 Nerd Font;
+    font-size: 55px;
+}
+
+p {
+    color: white;
+    font-family: "Source Code Pro";
+    text-align: center;
+}
+
+p span {
+    background-color: black;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+
+.even-line {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+a:link {
+    color: cyan;
+    background-color: black;
+    font-family: "Source Code Pro";
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+
+a:hover {
+    transition: 0.8s;
+    color: pink;
+}

@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    background-image: url("../../images/hydra_background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+h1 {
+    text-align: center;
+    color: #C70039;
+    font-family: BigBlueTerm437 Nerd Font;
+    font-size: 45px;
+    padding: 10px;
+    position: sticky;
+}
+
+p {
+    text-align: center;
+    color: #007C00;
+    font-family: "Source Code Pro";
+    font-weight: bold;
+}
+
+p span {
+    background-color: #FFA800;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+
+.color-button {
+    background-color: #1897bc;
+    border-color: red;
+    border-radius: 8px;
+    height: 28px;
+    width: 100px;
+    font-size: 16px;
+    font-family: BigBlueTerm437 Nerd Font;
+    transition: 0.8s;
+}
+
+.color-button:hover {
+    background-color: #65b27b;
+    transition: 0.8s;
+    border-color: #ea7609
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.even-line {
+    display: flex;
+    justify-content: space-evenly;
+    color: red;
+    font-family: BigBlueTerm437 Nerd Font;
+}
+
+
+a:link {
+    color: cyan;
+    background-color: #706c61;
+    font-family: "Source Code Pro";
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+
+a:hover {
+    transition: 0.8s;
+    background-color: #A9A9A9;
+}

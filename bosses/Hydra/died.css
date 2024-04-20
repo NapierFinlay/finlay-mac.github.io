@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    background-size: cover;
+}
+
+
+div {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+   
+h1 {
+    text-align: center;
+    color: red;
+    font-family: Monospace;
+    font-size: 70px;
+    border-style: outset double;
+    padding: 20px;
+}
+
+
+p {
+    color: white;
+    text-align: center;
+    font-family: "Arial";
+}
+
+a:link {
+    color: #358dbe;
+    background-color: white;
+    font-family: "Arial";
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}

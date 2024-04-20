@@ -1,0 +1,49 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/heaven.jpeg");
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: BigBlueTerm437 Nerd Font;
+    font-size: 55px;
+}
+
+p {
+    color: #007C00;
+    font-family: "Source Code Pro";
+    font-weight: bold;
+    text-align: center;
+}
+
+p span {
+   background-color: #FFA800;
+   border-radius: 5px;
+   padding: 1px 1px;
+}
+
+.even-line {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+a:link {
+    color: #0f8e94;
+    background-color: #bebebe;
+    font-family: "Source Code Pro";
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #707070;
+    transition: 0.8s;
+    color: pink;
+}
