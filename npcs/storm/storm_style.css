@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url("../../images/storm_background.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.color-button {
+    background-color: #1897bc;
+    border-color: red;
+    border-radius: 8px;
+    height: 28px;
+    width: 100px;
+    font-size: 16px;
+    font-family: BigBlueTerm437 Nerd Font;
+    transition: 0.8s;
+}
+
+.color-button:hover {
+    background-color: #65b27b;
+    transition: 0.8s;
+    border-color: #ea7609
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.even-line {
+    display: flex;
+    justify-content: space-evenly;
+    color: #0dbc73;
+    font-family: BigBlueTerm437 Nerd Font;
+}
+   
+h1 {
+    text-align: center;
+    color: #bdf80b;
+    padding: 20px;
+    font-family: BigBlueTerm437 Nerd Font;
+}
+
+p {
+    text-align: center;
+    color: #007C00;
+    font-family: "Source Code Pro";
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+p span {
+    background-color: #FFA800;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+a:link {
+    color: #88d56c;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    font-family: "Source Code Pro";
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.8s;
+}
+
+a:hover {
+    background-color: #707070;
+    transition: 0.8s
+}

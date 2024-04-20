@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../../images/chest_background.webp");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: BigBlueTerm437 Nerd Font;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: BigBlueTerm437 Nerd Font;
+}
+
+p {
+    text-align: center;
+    color: #007C00;
+    font-family: Source Code Pro;
+    font-weight: bold;
+}
+
+p span {
+    background-color: #FFA800;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+.even-line {
+    display: flex;
+    justify-content: space-evenly;
+    color: #0dbc73;
+    font-family: Source Code Pro;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-link {
+    text-decoration: none;
+}
+
+.text-link a:link {
+    display: flex;
+    justify-content: space-evenly;
+    color: #d4f556;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Source Code Pro;
+    font-weight: bold;
+}
+

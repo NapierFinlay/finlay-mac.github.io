@@ -1,0 +1,54 @@
+body {
+    background-image: url(../../images/dark_background_3.png);
+    background-color: blue;
+}    
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.even-line {
+    display: flex;
+    justify-content: space-evenly;
+    color: red;
+    font-family: BigBlueTerm437 Nerd Font;
+}
+   
+h1 {
+    text-align: center;
+    color: #a6f8cc;
+    font-size: 50px;
+    font-family: BigBlueTerm437 Nerd Font;
+}
+
+p {
+    text-align: center;
+    color: #007C00;
+    font-family: "Source Code Pro";
+    font-weight: bold;
+}
+
+p span {
+    background-color: #FFA800;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+a:link {
+    color: #88d56c;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Source Code Pro";
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.8s;
+}
+
+a:hover {
+    background-color: #707070;
+    transition: 0.8s;
+}

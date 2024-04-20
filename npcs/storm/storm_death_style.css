@@ -1,0 +1,38 @@
+body {
+    background-image: url("../../images/fire_background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: BigBlueTerm437 Nerd Font;
+}
+
+p {
+    text-align: center;
+    font-family: Source Code Pro;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a:link {
+    color: #88d56c;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    font-family: Source Code Pro;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.8s;
+}
+
+a:hover {
+    transition: 0.8s;
+    background-color: #707070;
+}
