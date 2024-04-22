@@ -21,6 +21,12 @@ h1 {
     padding: 20px;
 }
 
-a {
+a:link {
     color: #358dbe;
+    background-color: white;
+    font-family: "Source Code Pro";
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
